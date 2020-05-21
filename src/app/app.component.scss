@@ -1,0 +1,57 @@
+#flex-container1 {
+    display: flex;
+    justify-content:centre;
+    background-color: #0E6BFC;
+}
+  
+  #flex-container1 > div ,#flex-container2 > div {
+    background-color: #9CBEF3;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .flexitem1{
+    width: 1500px;
+    height: 50px;
+    margin: 20 20px;
+    word-spacing: 1100px;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  .lastname{
+    width: 1500px;
+    height: 50px;
+    margin: 20 20px;
+    word-spacing: 1100px;
+    float:right;
+    text-align:right
+  }
+  #flex-container2 {
+    display: flex;
+    background-color:lightblue;
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: oblique;
+  }
+  .flexitem2{
+    width: 1500px;
+    height: 50px;
+    margin: 20 20px;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#6B2DFA;
+    padding: 10px;
+    height: 500px;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #D7CAF7;
+    border: 1px solid #D7CAF7;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+  }
