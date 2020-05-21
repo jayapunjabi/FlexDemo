@@ -7,6 +7,8 @@
   #flex-container1 > div ,#flex-container2 > div {
     background-color: #9CBEF3;
     margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 20px;
     font-size: 40px;
   }
@@ -22,7 +24,7 @@
     height: 50px;
     margin: 20 20px;
     word-spacing: 1100px;
-    float:right;
+    //float:right;
     text-align:right
   }
   #flex-container2 {
