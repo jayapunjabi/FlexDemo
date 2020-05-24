@@ -1,8 +1,8 @@
 
 
 <div id="flex-container1">
-  <div class="flexitem1">Jaya </div>
-  <div class="lastname"> Punjabi </div>
+  <div class="flexitem1">Jaya Punjabi</div>
+  <!-- <div class="lastname"> Punjabi </div> -->
 </div>
 
 <div id="flex-container2">
@@ -10,19 +10,12 @@
 </div>
 
 <div class="grid-container">
- <div class="grid-item">
-   <span *ngFor="let index of loop">
-    <p>2 X {{ index }} = {{ index * 2 }}</p>
-  </span>
+ <div class="grid-item"
+   *ngFor="let temp of [].constructor(3);let i = index">
+        <app-table [value]="i+2" ></app-table>
+    </div>
 
-</div>
-  <div class="grid-item"><span  *ngFor = "let index of loop"> <p> 3 X {{index}} = {{ index * 3 }} </p> 
-                         </span>
-  </div>
-  <div class="grid-item"><span  *ngFor = "let index of loop">  <p> 4 X {{index}} = {{ index*4 }} </p> 
-                         </span>
-  </div>  
-   
+
 </div>
 
 <router-outlet></router-outlet>
